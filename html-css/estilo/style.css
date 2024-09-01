@@ -27,8 +27,7 @@ main h1 {
 main h2 {
     background-color: rgb(158, 182, 182);
     color: rgb(95, 15, 243);
-    text-align: center; 
-    
+    text-align: center;    
 }
 
 main h3 {
@@ -41,9 +40,8 @@ main img {
 }
 
 header {
-    background-color: rgb(183, 192, 192);
-    background-image: linear-gradient(to bottom rgb(243, 24, 24) rgb(90, 123, 194));
-    color: rgb(46, 2, 2);
+    color: rgb(48, 8, 8);
+    background: linear-gradient(to right, rgb(182, 137, 137), rgb(117, 112, 112));
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 10px;
@@ -51,8 +49,9 @@ header {
     font-size: 25px;
        
 }
+
 header > p {
-    color: rgb(37, 3, 3);
+    color: rgb(48, 8, 8);
     margin-top: 20px;
     padding-bottom: 50px;
 }
@@ -70,20 +69,33 @@ nav{
 }
 
 nav > a {
-    color: rgb(206, 26, 26);
+    color: rgb(48, 8, 8);
     text-decoration: none;
-    margin: 15px;
+    margin: 29px;
 }
 
 
 article > h1 {
-    color: rgb(56, 56, 206);
     text-align: center;
+    background: linear-gradient(to right, rgb(66, 60, 60), rgb(250, 249, 249));
+    color: rgb(109, 3, 3);
 }
 
-main p nav > {
-    background-image: linear-gradient(black, transparent);
+article > h2  {
+    background: linear-gradient(to right, rgb(34, 30, 30), rgb(250, 249, 249));
+    color: rgb(109, 3, 3);
 }
+
+article h3  {
+    background: linear-gradient(to right, rgb(34, 30, 30), rgb(250, 249, 249));
+    color: rgb(109, 3, 3);
+    }
+
+strong {
+    color: rgb(34, 165, 1);
+    text-decoration: underline;
+}
+
 
 div.video {
     background-color: rgb(106, 101, 110);
@@ -101,11 +113,10 @@ div.video > iframe {
     height: 90%;   
 }
 
-
 footer{
-    color: rgb(111, 146, 146);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(115, 118, 119);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 10px;
-    color: black;
+    color: rgb(44, 6, 6);
 }
