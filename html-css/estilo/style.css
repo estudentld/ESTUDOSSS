@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
 body{ 
-    background-color: rgb(212, 211, 209);
+    background-color: #d4d3d1;
+    background-image: url(imagem/wallpaper004.jpg)
 }
 
-main{
+main {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
